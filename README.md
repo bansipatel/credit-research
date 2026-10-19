@@ -6,4 +6,4 @@ Credit pitches and IC memos. Equity research lives at https://bansipatel.github.
 |------|--------|------|
 | Aug 2026 | CABO | Cable One, Inc. |
 | May 2026 | PRMB | Primo Brands Corporation |
-| May 2026 | EMBC | Embecta Corp |
+| Apr 2026 | EMBC | Embecta Corp |
