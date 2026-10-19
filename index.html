@@ -37,7 +37,10 @@
       font-size: 1.35rem; font-weight: 400; letter-spacing: 0.04em; flex-shrink: 0;
     }
 
-    .search { display: flex; align-items: center; width: 286px; flex-shrink: 0; }
+    .name { font-size: 1.3rem; font-weight: 700; color: var(--navy); line-height: 1.15; white-space: nowrap; flex-shrink: 0; }
+    .name small { display: block; margin-top: 3px; font-size: 0.66rem; font-weight: 400; letter-spacing: 0.14em; text-transform: uppercase; color: var(--label); }
+
+    .search { display: flex; align-items: center; width: 230px; flex-shrink: 0; }
     .search input {
       width: 100%; height: 26px; border: 1px solid #CFCFCF; padding: 0 10px;
       font: 0.72rem Arial, sans-serif; color: var(--text); outline: none;
@@ -52,6 +55,7 @@
 
     /* ── Title ── */
     .title { padding: 72px 0 0; }
+    .byline { font-size: 0.95rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent); margin-bottom: 14px; }
     h1 {
       font-size: 1.95rem; font-weight: 700; color: var(--navy); text-transform: uppercase;
       letter-spacing: 0.005em; line-height: 1.2; padding-bottom: 26px; position: relative;
@@ -114,6 +118,7 @@
     @media (max-width: 960px) {
       .grid { grid-template-columns: repeat(2, 208px); justify-content: center; }
       .search { display: none; }
+      .name { font-size: 1.1rem; }
       .filters { flex-wrap: wrap; gap: 8px 24px; }
       .filters strong { width: 100%; }
       .filters label { width: 190px; }
@@ -132,13 +137,13 @@
   <header>
     <div class="wrap head">
       <a class="logo" href="./" aria-label="Home">BP</a>
+      <a class="name" href="./">Bansi Patel, CFA<small>Credit Research</small></a>
       <div class="search">
         <input id="q" type="text" placeholder="Search credit pitches, sectors, etc." aria-label="Search" />
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#666" stroke-width="1.6"><circle cx="10" cy="10" r="7"/><path d="M15.5 15.5L22 22"/></svg>
       </div>
       <nav>
         <a class="active" href="./">Credit Research</a>
-        <a href="https://bansipatel.github.io/equity-research/">Equity Research</a>
         <a href="#about">About</a>
       </nav>
     </div>
@@ -146,10 +151,11 @@
 
   <main class="wrap">
     <div class="title">
+      <div class="byline">Bansi Patel, CFA</div>
       <h1>Credit Pitches</h1>
     </div>
 
-    <p class="intro">The following credit pitches and IC memos were written by Bansi Patel, CFA. Each pitch pairs a written credit memo with a presentation, and is built around downside protection, cash-flow durability, and capital structure.</p>
+    <p class="intro">The following credit pitches and IC memos were written by <strong>Bansi Patel, CFA</strong>. Each pitch pairs a written credit memo with a presentation, and is built around downside protection, cash-flow durability, and capital structure.</p>
 
     <div class="filters">
       <strong>Filter Credit Pitches By:</strong>
@@ -211,7 +217,6 @@
         <div>
           <h3>Research</h3>
           <a href="./">Credit Research</a>
-          <a href="https://bansipatel.github.io/equity-research/">Equity Research</a>
         </div>
         <div>
           <h3>About</h3>
