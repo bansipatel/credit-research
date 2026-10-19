@@ -101,6 +101,11 @@
     .row span { color: var(--accent); font-weight: 400; }
     .row a:hover { text-decoration: underline; }
 
+    .btns { display: flex; gap: 8px; margin-top: 16px; }
+    .btn { flex: 1; text-align: center; font-size: 0.74rem; font-weight: 700; color: var(--navy); border: 1px solid var(--navy); padding: 9px 4px; transition: background .15s, color .15s; }
+    .btn:hover { background: var(--navy); color: #fff; }
+    .btn + .btn { background: var(--navy); color: #fff; }
+    .btn + .btn:hover { background: var(--accent); border-color: var(--accent); }
     .empty { display: none; grid-column: 1 / -1; font-size: 0.9rem; color: var(--label); }
 
     /* ── About ── */
@@ -169,32 +174,32 @@
 
       <!-- CABO -->
       <div class="item" data-sector="TMT" data-year="2026" data-search="cabo cable one term loan b4 tmt">
-        <a class="thumb" href="Credit%20Pitches/CABO%20Credit%20Memo%20-%20Bansi%20Patel.pdf" target="_blank"><img src="assets/cable-one.svg" alt="Cable One" /></a>
+        <div class="thumb"><img src="assets/cable-one.svg" alt="Cable One" /></div>
         <div class="row">Issuer: <span>Cable One (CABO)</span></div>
         <div class="row">Idea: <span>Buy Term Loan B4</span></div>
         <div class="row">Sector: <span>TMT</span></div>
         <div class="row">Date: <span>August 2026</span></div>
-        <div class="row">Docs: <span><a href="Credit%20Pitches/CABO%20Credit%20Memo%20-%20Bansi%20Patel.pdf" target="_blank">Memo</a> · <a href="Credit%20Pitches/CABO%20Credit%20Presentation%20-%20Bansi%20Patel.pdf" target="_blank">Presentation</a></span></div>
+        <div class="btns"><a class="btn" href="Credit%20Pitches/CABO%20Credit%20Memo%20-%20Bansi%20Patel.pdf" target="_blank">Credit Memo</a><a class="btn" href="Credit%20Pitches/CABO%20Credit%20Presentation%20-%20Bansi%20Patel.pdf" target="_blank">Presentation</a></div>
       </div>
 
       <!-- PRMB -->
       <div class="item" data-sector="Consumer" data-year="2026" data-search="prmb primo brands first lien term loan b consumer water">
-        <a class="thumb" href="Credit%20Pitches/Primo%20Brands%20Credit%20Memo%20-%20Bansi%20Patel%20-%20Updated.pdf" target="_blank"><img class="icon" src="assets/primo-brands.png" alt="Primo Brands" /></a>
+        <div class="thumb"><img class="icon" src="assets/primo-brands.png" alt="Primo Brands" /></div>
         <div class="row">Issuer: <span>Primo Brands (PRMB)</span></div>
         <div class="row">Idea: <span>Buy 1L Term Loan B</span></div>
         <div class="row">Sector: <span>Consumer</span></div>
         <div class="row">Date: <span>May 2026</span></div>
-        <div class="row">Docs: <span><a href="Credit%20Pitches/Primo%20Brands%20Credit%20Memo%20-%20Bansi%20Patel%20-%20Updated.pdf" target="_blank">Memo</a> · <a href="Credit%20Pitches/Primo%20Brands%20Credit%20Review%20-%20Bansi%20Patel%20-%20Updated.pdf" target="_blank">Presentation</a></span></div>
+        <div class="btns"><a class="btn" href="Credit%20Pitches/Primo%20Brands%20Credit%20Memo%20-%20Bansi%20Patel%20-%20Updated.pdf" target="_blank">Credit Memo</a><a class="btn" href="Credit%20Pitches/Primo%20Brands%20Credit%20Review%20-%20Bansi%20Patel%20-%20Updated.pdf" target="_blank">Presentation</a></div>
       </div>
 
       <!-- EMBC -->
       <div class="item" data-sector="Healthcare" data-year="2026" data-search="embc embecta pass diabetes healthcare medical device">
-        <a class="thumb" href="Credit%20Pitches/EMBC%20Credit%20Memo%20-%20Bansi%20Patel.pdf" target="_blank"><span class="wordmark">embecta<i>.</i></span></a>
+        <div class="thumb"><span class="wordmark">embecta<i>.</i></span></div>
         <div class="row">Issuer: <span>Embecta (EMBC)</span></div>
         <div class="row">Idea: <span>Pass</span></div>
         <div class="row">Sector: <span>Healthcare</span></div>
         <div class="row">Date: <span>April 2026</span></div>
-        <div class="row">Docs: <span><a href="Credit%20Pitches/EMBC%20Credit%20Memo%20-%20Bansi%20Patel.pdf" target="_blank">Memo</a> · <a href="Credit%20Pitches/Embecta%20Corp%20Credit%20Presentation%20-%20Bansi%20Patel.pdf" target="_blank">Presentation</a></span></div>
+        <div class="btns"><a class="btn" href="Credit%20Pitches/EMBC%20Credit%20Memo%20-%20Bansi%20Patel.pdf" target="_blank">Credit Memo</a><a class="btn" href="Credit%20Pitches/Embecta%20Corp%20Credit%20Presentation%20-%20Bansi%20Patel.pdf" target="_blank">Presentation</a></div>
       </div>
 
       <!-- Add new items above this line -->
