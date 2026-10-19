@@ -110,6 +110,11 @@
     .empty { display: none; grid-column: 1 / -1; font-size: 0.9rem; color: var(--label); }
 
     /* ── About ── */
+    .disc { border-top: 1px solid var(--line); background: #F7F7F7; padding: 44px 0 52px; }
+    .disc h2 { font-size: 1.2rem; text-transform: uppercase; color: var(--navy); margin-bottom: 18px; }
+    .disc p { font-size: 0.78rem; line-height: 1.7; color: #555; margin-bottom: 11px; max-width: 800px; }
+    .disc p strong { color: #333; }
+    .short { margin-top: 12px; font-size: 0.74rem; color: var(--label); line-height: 1.6; }
     .about { border-top: 1px solid var(--line); padding: 48px 0 56px; }
     .about h2 { font-size: 1.2rem; text-transform: uppercase; color: var(--navy); margin-bottom: 18px; }
     .about p { font-size: 0.86rem; line-height: 1.75; color: #444; margin-bottom: 12px; max-width: 800px; }
@@ -164,6 +169,7 @@
 
     <p class="intro">The following credit pitches and IC memos were written by <strong>Bansi Patel, CFA</strong>. Each pitch pairs a written credit memo with a presentation, and is built around downside protection, cash-flow durability, and capital structure.</p>
     <p class="intro note"><strong>Models:</strong> Please reach out directly - the full Excel models are available upon request.</p>
+    <p class="short">For informational and educational purposes only. Not investment advice. See <a href="#disclosures" style="text-decoration:underline">Important Disclosures</a>.</p>
 
     <div class="filters">
       <strong>Filter Credit Pitches By:</strong>
@@ -219,6 +225,20 @@
     </div>
   </section>
 
+  <section class="disc" id="disclosures">
+    <div class="wrap">
+      <h2>Important Disclosures</h2>
+      <p><strong>Not investment advice.</strong> The materials on this site are provided for informational and educational purposes only. They are not investment, legal, tax, or accounting advice, and are not a recommendation, solicitation, or offer to buy or sell any security or financial instrument. They do not take into account the investment objectives, financial situation, or needs of any person. Readers should conduct their own research and consult a qualified, licensed financial adviser before making any investment decision.</p>
+      <p><strong>Personal views.</strong> All content reflects the independent analysis and personal opinions of the author as of the date shown on each pitch. It does not represent the views of any current or former employer, or of any firm, fund, or organization with which the author is or has been affiliated. The author is not acting in an advisory capacity to any reader.</p>
+      <p><strong>Sources and accuracy.</strong> Analysis is based solely on publicly available information, including company filings and publicly disclosed documents, and no material non-public information was used. Facts are distinguished from opinions and estimates in each document, but the information may contain errors or omissions, and its accuracy or completeness is not guaranteed. Projections, forecasts, and recovery scenarios are estimates only and involve assumptions that may prove incorrect. Prices, yields, spreads, and ratings are shown as of the date indicated and will have changed since; the author has no obligation to update any material.</p>
+      <p><strong>Risk.</strong> Investing in debt and other securities involves risk, including the loss of principal. Past performance, and any analysis or estimated return shown here, is not a guarantee or indicator of future results.</p>
+      <p><strong>Conflicts of interest.</strong> The author may currently or in the future hold, buy, or sell positions in the securities discussed, and may trade in them without notice. The author receives no compensation from any issuer discussed and has no investment banking or other business relationship with them for the purpose of this research.</p>
+      <p><strong>CFA designation.</strong> &ldquo;CFA&rdquo; refers to the author&rsquo;s status as a CFA charterholder. CFA Institute has not reviewed, endorsed, or approved this site or its content, and the designation does not imply any guarantee of investment performance or ability.</p>
+      <p><strong>Trademarks.</strong> Company names and logos shown are the property of their respective owners, are used for identification only, and do not imply any affiliation with, or endorsement by, those companies.</p>
+      <p><strong>Models and materials.</strong> Excel models and supporting materials are available on request, are provided for the same informational purposes, and may not be redistributed without permission.</p>
+    </div>
+  </section>
+
   <footer>
     <div class="wrap">
       <div class="cols">
@@ -229,9 +249,10 @@
         <div>
           <h3>About</h3>
           <a href="#about">Bio</a>
+          <a href="#disclosures">Important Disclosures</a>
         </div>
       </div>
-      <p class="copy">© 2026 Bansi Patel, CFA</p>
+      <p class="copy">© 2026 Bansi Patel, CFA. For informational purposes only; not investment advice.</p>
     </div>
   </footer>
 
